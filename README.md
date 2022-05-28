@@ -1,3 +1,3 @@
-# Open School
+# Open School [Client/Server app]
 
 To deploy the application locally, you need to clone the repository and run the `docker-compose up` command in the root directory. The app will be available on localhost:8888. Or manually install the dependencies of both parts of the application `yarn install` and also run them separately for execution. Server `yarn start` available on port 8080, Client `yarn serve` available on port 8081. At the same time it should be borne in mind that for the application to work, a connection to the MongoDB database is required. And this means that your database should also be deployed on your computer. Version 4.4 and higher in standard configuration. Therefore the simplest and preferred method is the first method specified above. Deploying and launching an application using Docker Compose.
